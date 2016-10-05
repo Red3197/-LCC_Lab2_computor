@@ -105,16 +105,16 @@ public class MainActivity extends Activity implements OnClickListener {
 		txvBuf.setText(ans);
 		switch(operator){
 		case 1:
-			txvOpe.setText("+");
+			txvOpe.setText(" +");
 			break;
 		case 2:
-			txvOpe.setText("-");
+			txvOpe.setText(" -");
 			break;
 		case 3:
-			txvOpe.setText("x");
+			txvOpe.setText(" x");
 			break;
 		case 4:
-			txvOpe.setText("/");
+			txvOpe.setText(" กา");
 		}
 		ans= "0";
 		txvAns.setText(ans);
